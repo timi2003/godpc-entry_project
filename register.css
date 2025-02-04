@@ -63,6 +63,11 @@ p{
         height: auto;
         padding: 30px;
     }
+    .logo {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
 
     .signup-box {
         width: 100%;
@@ -74,6 +79,8 @@ p{
 
     .social-login {
         justify-content: center;
+        display: flex;
+        align-items: center;
     }
 
     input, .register-btn {
@@ -86,6 +93,11 @@ p{
         justify-content: space-between;
         max-width: 900px;
         margin: auto;
+    }
+    .logo {
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
 
     .signup-box {
@@ -100,5 +112,10 @@ p{
     .design-section img {
         width: 100%;
         height: auto;
+    }
+    .social-login {
+        justify-content: center;
+        display: flex;
+        align-items: center;
     }
 }
