@@ -57,7 +57,7 @@ p{
     margin-bottom: 50px;
     justify-content: center;
 }
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 480px) {
     .container {
         flex-direction: column;
         height: auto;

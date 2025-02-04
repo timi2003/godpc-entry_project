@@ -404,6 +404,10 @@ footer{
         .sub button {
             width: 100%;
         }
+        .sub{
+            width: 100%;
+            margin: auto;
+        }
     }
     
 
@@ -475,12 +479,29 @@ footer{
         gap: 5px;
      }
 
+     .row {
+        display: flex;
+        flex-direction: column; /* Stack items vertically */
+        align-items: center;
+        width: 100%;
+    }
     .social {
         gap: 10px; /* Adjust spacing for icons */
     }
-
+    .grid{
+    display: grid; 
+    grid-template-columns: repeat(6, 1fr); 
+    gap: 20px; 
+    flex-wrap: wrap;
+    }
     .social img {
         width: 20px; /* Reduce icon size for smaller screens */
+    }
+    .job-categories{
+        width: 100px;
+    }
+    .how-to-get-job{
+        width: 100%;
     }
 }
 
