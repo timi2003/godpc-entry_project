@@ -71,24 +71,36 @@ p{
         display: flex;
         align-items: center;
         justify-content: center;
+        margin-bottom: 20px; /* Add some space below the logo */
     }
 
     .signup-box {
         width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
 
-    .design-section {
-        display: none; /* Hide image for mobile */
+    .input-group {
+        width: 100%;
+        max-width: 300px; /* Limit the width of input fields */
+        margin-bottom: 15px; /* Add some space between input fields */
+    }
+
+    input, .register-btn {
+        width: 100%;
+        max-width: 300px; /* Limit the width of input fields and button */
+    }
+
+    .register-btn {
+        margin-top: 20px; /* Add some space above the button */
     }
 
     .social-login {
         justify-content: center;
         display: flex;
         align-items: center;
-    }
-
-    input, .register-btn {
-        width: 100%;
+        margin-top: 20px; /* Add some space above the social login section */
     }
 }
 @media screen and (min-width: 768px) {

@@ -339,20 +339,6 @@ footer{
         }
     }
     
-    @media (max-width: 480px) {
-        .company-logos {
-            grid-template-columns: repeat(2, 1fr); /* Adjust to 2 columns on smaller screens */
-            gap: 5px;
-        }
-    }
-
-    .steps {
-        grid-template-columns: 1fr; /* Stack steps vertically */
-    }
-
-    .categories .cat {
-        grid-template-columns: repeat(2, 1fr); /* Show 2 items per row */
-    }
 
     @media (max-width: 768px) {
         .subscribe {
@@ -390,52 +376,7 @@ footer{
         }
     }
     
-    /* Small Mobile Screens (up to 480px) */
-    @media (max-width: 480px) {
-        .sub h2 {
-            font-size: 24px;
-        }
-        .firstpg{
-            display: block;
-        }
-    
-        .subfrm input {
-            width: 100%;
-            font-size: 14px;
-        }
-    
-        .sub button {
-            width: 100%;
-        }
-        
-        
-    }
-    
 
-    .social {
-        grid-template-columns: repeat(3, 1fr);
-        margin: auto;
-    }
-}
-
-/* Small Mobile Screens (up to 480px) */
-@media (max-width: 480px) {
-    .categories .cat {
-        grid-template-columns: 1fr; /* Stack job categories */
-    }
-
-    .social {
-        grid-template-columns: repeat(2, 1fr);
-    }
-
-    .sub input {
-        width: 100%;
-    }
-
-    .sub button {
-        width: 100%;
-    }
-}
 @media (max-width: 768px) {
     footer {
         text-align: center;
@@ -476,27 +417,17 @@ footer{
 }
 
 @media (max-width: 480px) {
-    .grid {
-        gap: 5px;
-     }
+    .company-logos {
+        grid-template-columns: 1fr;
+    }
 
-     .row {
-        display: flex;
-        flex-direction: column; /* Stack items vertically */
-        align-items: center;
-        width: 100%;
+    .categories .cat {
+        grid-template-columns: 1fr;
     }
+
     .social {
-        gap: 10px; /* Adjust spacing for icons */
-    }
-    .grid{
-    display: grid; 
-    grid-template-columns: repeat(6, 1fr); 
-    gap: 20px; 
-    flex-wrap: wrap;
-    }
-    .social img {
-        width: 20px; /* Reduce icon size for smaller screens */
+        grid-template-columns: repeat(2, 1fr);
     }
 }
 
+}
