@@ -61,7 +61,11 @@ p{
     .container {
         flex-direction: column;
         height: auto;
-        padding: 30px;
+        padding: 10px;
+        margin: 0;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
     }
     .logo {
         display: flex;
