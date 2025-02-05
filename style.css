@@ -345,8 +345,8 @@ footer{
             flex-direction: column;
             text-align: center;
             padding: 20px;
-            margin: 20px; /* Reduce margin for better fit */
-            border-radius: 20px; /* Smaller border radius for smaller screens */
+            margin: 20px; 
+            border-radius: 20px; 
         }
     
         .sub, .sub2 {
@@ -427,6 +427,18 @@ footer{
 
     .social {
         grid-template-columns: repeat(2, 1fr);
+    }
+    .firstpg {
+        display: block; 
+        text-align: center; 
+        padding: 20px; 
+    }
+
+    .firstpg-img {
+        margin: 0 auto 20px; 
+        width: 100%;
+        max-width: 300px; 
+        height: auto;
     }
 }
 
